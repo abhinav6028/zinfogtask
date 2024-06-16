@@ -1,6 +1,7 @@
 import { Grid, Typography } from '@mui/material'
 import React from 'react';
 import CloseIcon from '@mui/icons-material/Close';
+import 'animate.css';
 
 function PatientPopUp({ popUp, setPopUp, clickedItem }) {
     return (
@@ -25,7 +26,7 @@ function PatientPopUp({ popUp, setPopUp, clickedItem }) {
                         fontWeight: 'bold',
                         color: "rgba(80, 80, 80, 1)",
                         fontFamily: 'outfit',
-                    }}>{clickedItem?.patientName}	</Typography>
+                    }}>{clickedItem?.patientName}</Typography>
 
                     <Grid container>
                         <Typography sx={{ fontSize: { xs: 13, sm: 15, md: 17, lg: 17, color: 'rgba(80, 80, 80, 1)', fontFamily: "outfit" }, ml: { xs: 1, sm: 1, md: 2, lg: 2 } }}>Age : {clickedItem?.age} Y</Typography>

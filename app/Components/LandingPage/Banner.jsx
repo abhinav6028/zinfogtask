@@ -22,7 +22,7 @@ function Banner() {
             <Grid container
                 sx={{
                     height: '100%',
-                    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     justifyContent: 'center',

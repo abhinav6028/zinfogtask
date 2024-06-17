@@ -75,16 +75,14 @@ function PackageSection({ condition, title }) {
                     />
                 }
 
-
-
-
                 <Grid container sx={{ width: '100%', flexWrap: 'nowrap', overflowX: 'hidden', mt: -5 }}>
 
                     {
 
                         DATA1?.slice(startingItem, endingItem)?.map((data, index) =>
 
-                            <Grid container xs={5.5} sm={3} md={3.4} lg={3.4} style={{ flex: '0 0 auto', background: '', justifyContent: '' }}>
+                            <Grid
+                                container xs={5.5} sm={3} md={3.4} lg={3.4} style={{ flex: '0 0 auto', background: '', justifyContent: '' }}>
 
                                 <Grid container xs={11} sm={11} md={11} lg={11} sx={{
                                     background: '#FFF', justifyContent: 'center',
